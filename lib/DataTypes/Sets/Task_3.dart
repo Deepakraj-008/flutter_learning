@@ -1,3 +1,8 @@
+
+// 1. **List to Set Conversion***Task:*
+// Write a function that takes a list of widget names (with possible duplicates),
+// converts it to a set to remove duplicates, and prints the unique widget names.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

@@ -1,3 +1,10 @@
+
+
+// 1. **Conditional Widget Text***Task:*
+// Write a function that accepts a boolean (e.g.,`isDarkMode`) and returns a string “Dark Mode” if true or “Light Mode” if false.
+// Then, display this string in a Flutter`Text`widget.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

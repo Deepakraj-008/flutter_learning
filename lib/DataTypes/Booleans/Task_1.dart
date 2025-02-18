@@ -1,3 +1,9 @@
+
+
+//1. **Login Status Check***Task:*
+// Declare a boolean variable (e.g.,`isLoggedIn`) and use an`if`statement to print “User is logged in”
+// if true or “User is logged out” if false.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

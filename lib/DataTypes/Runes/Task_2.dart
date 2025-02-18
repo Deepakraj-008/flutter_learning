@@ -1,3 +1,8 @@
+
+// 1. **Rune to Character***Task:*
+// Write a function that takes a Unicode code point (e.g., 0x1F600) and
+// prints the corresponding character using`String.fromCharCode`.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

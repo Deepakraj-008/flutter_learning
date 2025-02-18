@@ -1,3 +1,7 @@
+
+//1. **Nullable Variable***Task:*
+// Declare a nullable string for a Flutter widget’s title (e.g.,`String? title;`) and print its value.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

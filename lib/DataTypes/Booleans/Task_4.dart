@@ -1,3 +1,11 @@
+
+
+// 1. **Complex User Verification***Task:*
+// Write a function that checks several boolean conditions (e.g.,`isLoggedIn`,`isEmailVerified`,`hasAcceptedTerms`) and
+// returns a message indicating whether the user can access a premium Flutter feature.
+// Use a combination of`&&`and`||`operators to determine the output.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

@@ -1,3 +1,10 @@
+
+
+// 1. **Multi‑Type Formatter***Task:*
+// Write a function that uses dynamic typing to process different types of input (for example, a String, an int, or a List)
+// for a Flutter widget. The function should return a formatted summary string that explains the type and value of the input.
+// *Hint:*Use runtime type checks (with`is`) to format the output accordingly.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

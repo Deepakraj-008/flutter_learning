@@ -1,3 +1,8 @@
+
+
+//1. **Unique Color Themes***Task:*
+// Create a set of color names (e.g., “blue”, “red”, “green”) used in a Flutter theme and print the set.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

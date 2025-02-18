@@ -1,3 +1,11 @@
+
+
+// 1. **Configuration Manager***Task:*
+// Write a function that accepts a map representing configuration settings for a Flutter app
+// (with various key–value pairs). Update multiple entries (e.g., change font size, theme, etc.),
+// then iterate through the map and print each setting in a formatted manner.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

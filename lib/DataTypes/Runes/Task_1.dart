@@ -1,3 +1,8 @@
+
+//1. **Print Code Point***Task:*
+// Write a simple program that declares a string with an emoji (e.g., “😊”) and
+// prints its first Unicode code point using`.runes.first`.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

@@ -1,3 +1,8 @@
+
+// 2. **Substring Extraction***Task:*
+// Declare a string for a Flutter widget’s title (e.g., “Flutter Widgets”) and print a substring that contains just “Widgets.”
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

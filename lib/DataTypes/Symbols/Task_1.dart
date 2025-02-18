@@ -1,3 +1,7 @@
+
+//1. **Declare and Print a Symbol***Task:*
+// Declare a symbol for a Flutter widget identifier (e.g.,`#myWidget`) and print it.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

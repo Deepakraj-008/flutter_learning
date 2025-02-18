@@ -1,3 +1,9 @@
+
+// 1. **Dynamic Property Lookup***Task:*
+// Assume you have a map of widget attributes (e.g.,`{#color: 'blue', #size: 'large'}`).
+// Write a function that uses symbols to access and print a specific attribute’s value.
+// *Hint:*Use the symbol as a key in the map.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

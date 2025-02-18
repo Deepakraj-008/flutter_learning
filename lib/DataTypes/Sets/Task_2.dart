@@ -1,3 +1,10 @@
+
+
+// 2. **Check for Existence***Task:*
+// Check if a specific color (e.g., “red”) exists in the set and print the result.
+
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

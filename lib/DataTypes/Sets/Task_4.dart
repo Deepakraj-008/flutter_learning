@@ -1,3 +1,9 @@
+
+// 2. **Adding and Removing***Task:*
+// Write a function that demonstrates adding a duplicate element to a set and then removing an element.
+// Print the set before and after removal.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

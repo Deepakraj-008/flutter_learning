@@ -1,3 +1,9 @@
+
+// 2. **String Manipulation for UI***Task:*
+// Create a function that takes a string (a widget’s label) and returns the trimmed and capitalized version
+// (e.g., convert “ home screen ” to “Home Screen”).
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

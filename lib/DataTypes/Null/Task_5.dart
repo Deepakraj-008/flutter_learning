@@ -1,3 +1,10 @@
+
+
+// 1. **Nested Configuration Access***Task:*
+// Imagine a nested map for Flutter app configuration (e.g., theme settings inside a main config).
+// Write a function that safely retrieves a nested value using multiple null-aware operators and
+// prints a default if any level is null.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

@@ -1,3 +1,12 @@
+
+
+ // 2. **Iterate and Print***Task:*
+ // Write a function that iterates over a list of route names (e.g., “/home”, “/profile”, “/settings”) and
+ // prints each one on a new line.
+
+
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

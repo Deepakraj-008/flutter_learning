@@ -1,3 +1,9 @@
+
+// 1. **Symbol Comparison***Task:*
+// Write a function that declares a symbol (e.g.,`#homeScreen`) and then checks whether a given symbol equals the predefined symbol.
+// Print the result of the comparison.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

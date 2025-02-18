@@ -1,3 +1,8 @@
+
+// 1. **Iterate Over Runes***Task:*
+// Write a function that takes a string containing a mix of text and an emoji (e.g., “Flutter is fun 😊”) and
+// iterates over all its runes. For each code point, print both the numeric value and the character it represents.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

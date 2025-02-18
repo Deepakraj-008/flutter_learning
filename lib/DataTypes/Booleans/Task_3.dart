@@ -1,3 +1,9 @@
+
+// 2. **Multiple Conditions***Task:*
+// Write a function that accepts two booleans (e.g.,`isLoggedIn`and`hasPremiumAccess`) and
+// prints an appropriate message based on the combination using logical operators.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

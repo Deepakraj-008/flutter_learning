@@ -1,15 +1,26 @@
+
+
+// 1. **Circle Area Calculator**
+//     1. *Task*
+//         1. Write a function that calculates the area of a circle given its radius.
+//     2. *Requirements:*
+//         - Declare the radius as a double (simulate a widget’s dimension).
+//         - Use a const for Pi.
+//         - Return or print the area with proper rounding.
+//         *Bonus:*Integrate this function into a simple Flutter widget that displays the area.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_learning/main.dart';
 
-class Num_four extends StatefulWidget {
-  const Num_four({super.key});
+class num_Five extends StatefulWidget {
+  const num_Five({super.key});
 
   @override
-  State<Num_four> createState() => _Num_fourState();
+  State<num_Five> createState() => _num_FiveState();
 }
 
-class _Num_fourState extends State<Num_four> {
+class _num_FiveState extends State<num_Five> {
 
  static const pi=3.14;
  double? radius;

@@ -1,3 +1,9 @@
+
+
+// 2. **Flexible Data Handler***Task:*
+// Write a function that accepts a dynamic input (which could be a String or an int) and
+// prints a message indicating what type of data it received.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

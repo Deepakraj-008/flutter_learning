@@ -1,3 +1,10 @@
+
+//
+// 1. **Full Name Split***Task:*
+// Write a function that accepts a full name (e.g., “John Doe”) and extracts the first and
+// last names using`substring`(or`split`), then prints them separately.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

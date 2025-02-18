@@ -1,4 +1,8 @@
-import 'dart:js_interop_unsafe';
+
+// 1. **Dynamic List Modification***Task:*
+// Write a function that starts with a list of strings representing Flutter dependency names. Add a new dependency to the list,
+// remove one, and then print the updated list along with its length.
+
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

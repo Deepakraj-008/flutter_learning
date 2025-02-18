@@ -1,3 +1,8 @@
+
+//1. **Widget List***Task:*
+// Create a list containing names of three Flutter widgets (e.g., “Text”, “Container”, “Row”) and print the entire list.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

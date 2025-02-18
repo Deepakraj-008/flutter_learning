@@ -1,3 +1,8 @@
+
+//1. **Uppercase Conversion***Task:*
+// Declare a string with a greeting (e.g., “hello, flutter!”) and print the string in uppercase.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

@@ -1,3 +1,12 @@
+
+
+
+// 1. **Widget Title Formatter***Task:*Write a function that accepts a string representing a Flutter widget’s title and:
+//     - Trims leading/trailing whitespace.
+//     - Capitalizes the first letter of each word.
+//     - Checks if the title contains a specific substring (like “Flutter”) and appends “ - Official” if it does.
+//     *Use this function in a small Flutter app to format and display the widget title.*
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

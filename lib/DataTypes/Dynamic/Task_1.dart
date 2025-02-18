@@ -1,3 +1,9 @@
+
+
+//1. **Dynamic Type Change***Task:*
+// Declare a dynamic variable, assign it an integer value, print it, then assign a string value, and
+// print it again.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

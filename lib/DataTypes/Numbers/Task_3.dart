@@ -1,3 +1,10 @@
+
+
+// 1. **Formatting Doubles***Task:*
+// Write a function that accepts a double (e.g., representing a Flutter layout’s padding) and
+// prints its value formatted to 2 decimal places using`.toStringAsFixed(2)`.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 class num_three extends StatefulWidget {
