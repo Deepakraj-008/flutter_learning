@@ -1,3 +1,7 @@
+
+//Task:Declare a final variable for a Flutter route name and then attempt to change it.
+// Observe the compiler error and add a comment explaining why the error occurs.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 class Medium_two extends StatefulWidget {
@@ -10,16 +14,10 @@ class Medium_two extends StatefulWidget {
 class _Medium_twoState extends State<Medium_two> {
 
  final name="Flutter_two";
- //final name ="newone";
-//'name' is already declared in this scope.
-//u cannot change the name because its already declared with final data type
-// if u want to change the name u can use 'var' data type instard of final.
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
-  //  variable();
   }
 
   @override
@@ -27,7 +25,7 @@ class _Medium_twoState extends State<Medium_two> {
     return Scaffold(
       body: Column(
         children: [
-Text("${name}")
+               Text("${name}")
         ],
       ),
     );

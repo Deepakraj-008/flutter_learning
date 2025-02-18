@@ -1,3 +1,10 @@
+
+
+//ask:Write a function that declares one variable using an explicit type (e.g.,String) and another using var. Then,
+// print a sentence combining both (for example, “My Flutter project [projectName] is amazing because [widgetName] is awesome!”).
+
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 class Medium_one extends StatefulWidget {
@@ -9,8 +16,10 @@ class Medium_one extends StatefulWidget {
 
 class _Medium_oneState extends State<Medium_one> {
 
-  var k="hi";
-  String m="jo";
+  var k ="f";
+  String? m;
+
+  String? deep;
 
 
   void variable()
