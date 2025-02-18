@@ -1,3 +1,9 @@
+
+//Average Rating CalculatorTask:Write a function that takes a list of integer ratings (for example, from 1 to 5) and
+// computes the average rating using arithmetic operators and
+// integer division where appropriate. Print the average rating with one decimal place.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

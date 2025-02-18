@@ -1,3 +1,9 @@
+
+// 1. **Composite User Settings***Task:*
+// Write a Dart function that simulates checking multiple user settings for a Flutter app
+// (e.g.,`isLoggedIn`,`hasAcceptedTerms`, and`isPremiumUser`) using a combination of logical operators.
+// Return a composite status message indicating which conditions are met or missing.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

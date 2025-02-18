@@ -1,3 +1,9 @@
+
+
+//1. **Simple Boolean Logic***Task:*
+// Write a program that demonstrates the use of logical AND, OR, and NOT with two boolean variables.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

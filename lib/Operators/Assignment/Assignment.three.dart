@@ -1,3 +1,9 @@
+
+
+// 1. **Multi-Variable Update***Task:*Write a function that simulates updating several aspects of a Flutter app’s state
+// (e.g., a counter, a progress value, and a score) using combined assignment operators. Print the state before and after the update.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

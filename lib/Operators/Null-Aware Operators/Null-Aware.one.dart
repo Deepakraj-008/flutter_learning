@@ -1,3 +1,7 @@
+
+//1. **Type Checking***Task:*
+// Write a program that declares a variable and uses the`is`operator to check if it is of type String. Print the result.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

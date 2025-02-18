@@ -1,3 +1,9 @@
+
+
+// 1. **Safe Property Access***Task:*
+// Write a function that accepts a nullable string (e.g., a widget’s tooltip) and
+// safely prints its length using the null-aware operator (`?.`), or prints “No tooltip” if it’s null.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

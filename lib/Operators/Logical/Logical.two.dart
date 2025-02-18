@@ -1,3 +1,8 @@
+
+// 1. **User Login Checker***Task:*
+// Write a function that accepts two booleans (e.g.,`isLoggedIn`and`isEmailVerified`) and returns
+// “Access Granted” only if both are true. Otherwise, return “Access Denied.”
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

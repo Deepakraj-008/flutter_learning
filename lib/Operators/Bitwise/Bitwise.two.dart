@@ -1,3 +1,11 @@
+
+
+
+//
+// 1. **Toggle Settings Flag***Task:
+// *Assume a Flutter app uses an integer as a bit-field for settings.
+// Write a function that toggles a specific flag (using bitwise XOR or OR) and prints the updated settings integer.
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

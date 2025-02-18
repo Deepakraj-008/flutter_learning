@@ -1,3 +1,10 @@
+
+// 1. **Version Checker***Task:*
+// Write a function that compares two version numbers (provided as strings like “1.2.3” and “1.3.0”)
+// for a Flutter plugin and prints which version is newer.
+// *Hint:*Split the strings by the dot character and compare each numeric part.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

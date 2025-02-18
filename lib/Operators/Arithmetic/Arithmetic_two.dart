@@ -1,3 +1,8 @@
+
+//In-App Purchase TotalTask:Write a function that calculates the total price of an in‑app purchase given a unit price (double) and
+// quantity (int) using arithmetic operators. Print the total price.
+
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

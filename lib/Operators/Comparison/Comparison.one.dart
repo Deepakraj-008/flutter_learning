@@ -1,3 +1,11 @@
+
+
+//1. **Integer Comparison***Task:
+// Write a small program that compares two integers (e.g., representing the number of widgets on two screens) and
+// prints whether they are equal or not.
+
+//
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
