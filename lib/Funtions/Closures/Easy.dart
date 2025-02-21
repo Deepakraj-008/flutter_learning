@@ -16,26 +16,22 @@ class Close_one extends StatefulWidget {
 
 class _Close_oneState extends State<Close_one> {
 
+ dynamic? selectedValue,m;
+
   @override
   Widget build(BuildContext context) {
 
-    dynamic? selectedValue,m;
+    Function makeMultiplier(int factorr) => (int num) => num * factorr ;
+
     void main()
     {
-      List<int> numb = [1, 2, 3, 4,5,6,7,8,9];
-
-
-      selectedValue=  numb.where((num) => num.isEven);
-      if(selectedValue != null)
-      {
-        m=  numb.where((num) => num.isOdd);
-      }
-      else
-        m=  numb.where((num) => num.isEven);
-
-
+      selectedValue =makeMultiplier(6);
+      m=selectedValue(5);
 
     }
+
+
+
     main();
     return SafeArea(
       child: Scaffold(

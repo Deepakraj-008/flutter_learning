@@ -17,32 +17,29 @@ class Close_two extends StatefulWidget {
 
 class _Close_twoState extends State<Close_two> {
 
+
+  dynamic? selectedValue,m;
+
+  void main()
+  {
+
+    Function addnum() => (int num) => m += num; return m;
+
+    selectedValue=  addnum();
+selectedValue(50);
+selectedValue(60);
+  }
+
   @override
   Widget build(BuildContext context) {
 
-    dynamic? selectedValue,m;
-    void main()
-    {
-      List<int> numb = [1, 2, 3, 4,5,6,7,8,9];
 
-
-      selectedValue=  numb.where((num) => num.isEven);
-      if(selectedValue != null)
-      {
-        m=  numb.where((num) => num.isOdd);
-      }
-      else
-        m=  numb.where((num) => num.isEven);
-
-
-
-    }
     main();
     return SafeArea(
       child: Scaffold(
         body: Column(
           children: [
-            Text(' $m')
+            Text(' $selectedValue')
 
           ],
         ),
