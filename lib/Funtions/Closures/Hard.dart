@@ -21,17 +21,17 @@ class _Close_threeState extends State<Close_three> {
   @override
   Widget build(BuildContext context) {
 
-    Function makeMultiplier(int factorr) => (int num) => num * factorr ;
 
     void main()
     {
-      selectedValue =makeMultiplier(6);
-      m=selectedValue(5);
+      int count = 0;
+      Function Counter() => () => ++count;
 
+      var Press = Counter();
+     m=('Btn Click 1: ${Press()}');
+      m=('Btn Click 2: ${Press()}');
+      m=('Btn Click 3: ${Press()}');
     }
-
-
-
 
 
     main();

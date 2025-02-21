@@ -18,16 +18,24 @@ class Close_two extends StatefulWidget {
 class _Close_twoState extends State<Close_two> {
 
 
-  dynamic? selectedValue,m;
+  dynamic? selectedValue,m,k;
+  int? total;
 
   void main()
   {
 
-    Function addnum() => (int num) => m += num; return m;
-
-    selectedValue=  addnum();
-selectedValue(50);
-selectedValue(60);
+    Function totals() {
+      int total = 0;
+      return (int value) {
+        total += value;
+      m=("Running total: $total");
+      };
+    }
+    k=totals();
+    // k(-50);
+    k(36);
+    k(50);
+    k(150);
   }
 
   @override
@@ -39,7 +47,7 @@ selectedValue(60);
       child: Scaffold(
         body: Column(
           children: [
-            Text(' $selectedValue')
+            Text(' $m')
 
           ],
         ),

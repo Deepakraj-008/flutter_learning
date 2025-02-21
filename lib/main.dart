@@ -53,6 +53,7 @@ import 'package:flutter_learning/Funtions/Basic_Declaring_and_Calling_Functions/
 import 'package:flutter_learning/Funtions/Basic_Declaring_and_Calling_Functions/Hard.dart';
 import 'package:flutter_learning/Funtions/Basic_Declaring_and_Calling_Functions/Medium.dart';
 import 'package:flutter_learning/Funtions/Closures/Easy.dart';
+import 'package:flutter_learning/Funtions/Closures/Hard.dart';
 import 'package:flutter_learning/Funtions/Closures/Medium.dart';
 import 'package:flutter_learning/Funtions/Function_Parameters/Named_Parameters/Easy.dart';
 import 'package:flutter_learning/Funtions/Function_Parameters/Named_Parameters/Hard.dart';
@@ -107,7 +108,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Close_two()
+      home: Close_three()
     );
   }
 }
