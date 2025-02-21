@@ -25,9 +25,6 @@ class _Tip_oneState extends State<Tip_one> {
       return y.toUpperCase();
     }
 
-
-
-
     void main()
     {
 m=n('Hello World');

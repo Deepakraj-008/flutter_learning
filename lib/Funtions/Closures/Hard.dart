@@ -17,17 +17,16 @@ class Close_three extends StatefulWidget {
 
 class _Close_threeState extends State<Close_three> {
 
-  dynamic? selectedValue,m;
+  dynamic? selectedValue,m,Press;
   @override
   Widget build(BuildContext context) {
-
 
     void main()
     {
       int count = 0;
       Function Counter() => () => ++count;
 
-      var Press = Counter();
+       Press = Counter();
      m=('Btn Click 1: ${Press()}');
       m=('Btn Click 2: ${Press()}');
       m=('Btn Click 3: ${Press()}');

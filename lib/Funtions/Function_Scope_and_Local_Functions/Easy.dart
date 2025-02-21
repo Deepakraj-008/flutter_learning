@@ -1,4 +1,7 @@
-//Write a function outerMessage that defines a local function innerMessage inside it. 
+//### Easy
+//
+// - **Exercise 1:**
+// Write a function outerMessage that defines a local function innerMessage inside it.
 // The local function should print "Inner Message".
 // Call innerMessage from within outerMessage, then call outerMessage from main().
 
