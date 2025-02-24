@@ -65,7 +65,17 @@ import 'package:flutter_learning/Funtions/Function_Parameters/Required_Positiona
 import 'package:flutter_learning/Funtions/Function_Parameters/Required_Positional_Parameters/Hard.dart';
 import 'package:flutter_learning/Funtions/Function_Parameters/Required_Positional_Parameters/Medium.dart';
 import 'package:flutter_learning/Funtions/Function_Scope_and_Local_Functions/Easy.dart';
+import 'package:flutter_learning/Funtions/Function_Scope_and_Local_Functions/Hard.dart';
+import 'package:flutter_learning/Funtions/Function_Scope_and_Local_Functions/Medium.dart';
+import 'package:flutter_learning/Funtions/Higher%E2%80%91Order_Functions/Easy.dart';
+import 'package:flutter_learning/Funtions/Higher%E2%80%91Order_Functions/Hard.dart';
+import 'package:flutter_learning/Funtions/Higher%E2%80%91Order_Functions/Medium.dart';
 import 'package:flutter_learning/Funtions/Practical_Tips_for_Flutter_Development/Easy.dart';
+import 'package:flutter_learning/Funtions/Practical_Tips_for_Flutter_Development/Hard.dart';
+import 'package:flutter_learning/Funtions/Practical_Tips_for_Flutter_Development/Medium.dart';
+import 'package:flutter_learning/Funtions/Recursion/Easy.dart';
+import 'package:flutter_learning/Funtions/Recursion/Hard.dart';
+import 'package:flutter_learning/Funtions/Recursion/Medium.dart';
 import 'package:flutter_learning/Funtions/Returning_Values/Easy.dart';
 import 'package:flutter_learning/Funtions/Returning_Values/Hard.dart';
 import 'package:flutter_learning/Funtions/Returning_Values/Medium.dart';
@@ -108,7 +118,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Close_three()
+      home: Anon_one()
     );
   }
 }

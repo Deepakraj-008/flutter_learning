@@ -19,19 +19,21 @@ class _Anon_oneState extends State<Anon_one> {
   int?k,m;
 
   dynamic? selectedValue;
+  void main() {
+    List<int> numb = [1, 2, 3, 4];
+    List<int> n=[];
 
+
+    numb.forEach((num) => n.add(num * 2));
+
+
+    selectedValue=n;
+  }
 
 
   @override
   Widget build(BuildContext context) {
-    void main() {
-      List<int> numb = [1, 2, 3, 4];
-      List<int> n=[];
 
-      numb.forEach((num) => n.add(num * 2));
-selectedValue=n;
-      print("output value: $n");
-    }
 
 
     main();
