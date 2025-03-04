@@ -20,12 +20,12 @@ class _while_threeState extends State<while_three> {
   void simulateLoading() {//async {
     int progress = 0;
 
-    while (progress <= 140) {
+    while (progress <= 100) {
       status.add('Loading: $progress%');
       progress += 20;
     }
 
-    // while (progress <= 140) {
+    // while (progress <= 100) {
     //
     //   setState(() {
     //     status.add('Loading: $progress%');
@@ -45,7 +45,6 @@ class _while_threeState extends State<while_three> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    //  appBar: AppBar(title: Text("Loading Simulation")),
       body: Column(
         children: [
           Expanded(
