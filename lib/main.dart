@@ -1,4 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learning/ConditionalStatements/If_Else/Easy_IfElse.dart';
+import 'package:flutter_learning/ConditionalStatements/If_Else/Hard_ifElse.dart';
+import 'package:flutter_learning/ConditionalStatements/If_Else/Medium_ifElse.dart';
+import 'package:flutter_learning/ConditionalStatements/Switch_Condition/Easy_Switch.dart';
+import 'package:flutter_learning/ConditionalStatements/Switch_Condition/Hard_Switch.dart';
+import 'package:flutter_learning/ConditionalStatements/Switch_Condition/Medium_Switch.dart';
+import 'package:flutter_learning/ConditionalStatements/Ternary_Condition/Easy_Ternary.dart';
+import 'package:flutter_learning/ConditionalStatements/Ternary_Condition/Hard_Ternary.dart';
+import 'package:flutter_learning/ConditionalStatements/Ternary_Condition/Medium_Ternary.dart';
 import 'package:flutter_learning/DataTypes/Booleans/Task_1.dart';
 import 'package:flutter_learning/DataTypes/Booleans/Task_2.dart';
 import 'package:flutter_learning/DataTypes/Booleans/Task_3.dart';
@@ -79,6 +88,23 @@ import 'package:flutter_learning/Funtions/Recursion/Medium.dart';
 import 'package:flutter_learning/Funtions/Returning_Values/Easy.dart';
 import 'package:flutter_learning/Funtions/Returning_Values/Hard.dart';
 import 'package:flutter_learning/Funtions/Returning_Values/Medium.dart';
+import 'package:flutter_learning/Integration/Integ_Easy.dart';
+import 'package:flutter_learning/Integration/Integ_Hard.dart';
+import 'package:flutter_learning/Integration/Integ_Medium.dart';
+import 'package:flutter_learning/Loops/Collection_Methods/Collection_Easy.dart';
+import 'package:flutter_learning/Loops/Collection_Methods/Collection_Hard.dart';
+import 'package:flutter_learning/Loops/Collection_Methods/Collection_Medium.dart';
+import 'package:flutter_learning/Loops/Do_While_Loop/Do_While_Easy.dart';
+import 'package:flutter_learning/Loops/Do_While_Loop/Do_While_Medium.dart';
+import 'package:flutter_learning/Loops/For_In_Loop/For_IN_Easy.dart';
+import 'package:flutter_learning/Loops/For_In_Loop/For_IN_Hard.dart';
+import 'package:flutter_learning/Loops/For_In_Loop/For_IN_Medium.dart';
+import 'package:flutter_learning/Loops/For_Loop/For_Easy.dart';
+import 'package:flutter_learning/Loops/For_Loop/For_Hard.dart';
+import 'package:flutter_learning/Loops/For_Loop/For_Medium.dart';
+import 'package:flutter_learning/Loops/While_Loop/While_Easy.dart';
+import 'package:flutter_learning/Loops/While_Loop/While_Hard.dart';
+import 'package:flutter_learning/Loops/While_Loop/While_Medium.dart';
 import 'package:flutter_learning/Operators/Arithmetic/Arithmetic_one.dart';
 import 'package:flutter_learning/Operators/Arithmetic/Arithmetic_three.dart';
 import 'package:flutter_learning/Operators/Arithmetic/Arithmetic_two.dart';
@@ -101,6 +127,8 @@ import 'package:flutter_learning/variables/Hard.dart';
 import 'package:flutter_learning/variables/Medium_1.dart';
 import 'package:flutter_learning/variables/Medium_2.dart';
 
+import 'Loops/Do_While_Loop/Do_While_Hard.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -118,7 +146,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Anon_one()
+      home: Integ_three(),
     );
   }
 }

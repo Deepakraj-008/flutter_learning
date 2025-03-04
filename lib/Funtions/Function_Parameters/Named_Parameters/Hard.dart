@@ -6,7 +6,6 @@
 // The function should return a map with these settings. Simulate its usage in a Flutter app by printing the map.
 
 
-import 'dart:js_interop';
 
 import 'package:flutter/material.dart';
 

@@ -30,6 +30,7 @@ class _Close_threeState extends State<Close_three> {
      m=('Btn Click 1: ${Press()}');
       m=('Btn Click 2: ${Press()}');
       m=('Btn Click 3: ${Press()}');
+    var  k="hii";
     }
 
 
