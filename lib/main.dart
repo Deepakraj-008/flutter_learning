@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learning/Class/Basic_Class/Easy_Basic.dart';
+import 'package:flutter_learning/Class/Basic_Class/Medium_Basic.dart';
 import 'package:flutter_learning/ConditionalStatements/If_Else/Easy_IfElse.dart';
 import 'package:flutter_learning/ConditionalStatements/If_Else/Hard_ifElse.dart';
 import 'package:flutter_learning/ConditionalStatements/If_Else/Medium_ifElse.dart';
@@ -146,7 +148,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Integ_three(),
+      home: Basic_class_two(),
     );
   }
 }
