@@ -14,7 +14,7 @@ class do_while_one extends StatefulWidget {
 }
 
 class _do_while_oneState extends State<do_while_one> {
-  dynamic? n,m=3;
+  dynamic? n,m=3,k;
   late int progress ;
   List<String> status=[];
 
@@ -23,15 +23,17 @@ class _do_while_oneState extends State<do_while_one> {
     do {
     status.add("Hello, Flutter! ");
     progress++;
-
+    k=progress;
     }
     while (progress <=3 );
     //  n="Total Counts :- ${progress}";
+   // n=status.first.toUpperCase();
+    k=k;
   }
 
 
   void main() {
-    n= status.reversed;
+     n= "hii";
     simulateLoading();
   }
   @override
@@ -47,14 +49,11 @@ class _do_while_oneState extends State<do_while_one> {
       body: Column(
         children: [
           Expanded(
-            child: Container(
-              //height: 40,
-              child: ListView.builder(
-                itemCount: status.length,
-                itemBuilder: (context, index) {
-                  return m!=progress ? Text("  ${status[index]} ") : Text("  ${ n} ")  ;
-                },
-              ),
+            child: ListView.builder(
+              itemCount: status.length,
+              itemBuilder: (context, index) {
+                return m!=k ? Text("  ${status[index]} ") : Text("  $n ")  ;
+              },
             ),
           ),
         ],
